@@ -42,6 +42,19 @@ The recommended installation method is via the installer. Download the latest re
 |-----------|---------|-------------|
 | `operationTypeCode` | 10 | The operation type code to use for imported reports. |
 
+## Testing
+
+The project uses the [xUnit framework](https://xunit.net/) for testing.
+
+See `ConverterTests.cs` for setup instructions and test configuration.
+
 ## Contributing
 
 We welcome contributions! Feel free to open an issue or create a pull request.
+
+## Troubleshooting
+
+### Converter failed to start
+
+- Ensure the WATS Client Service has folder permission to the input path.
+- Restart the WATS Client Service after configuration changes.
